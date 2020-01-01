@@ -3,7 +3,10 @@
 # Part 1
 
 def sum arr
-  # YOUR CODE HERE
+  temp = 0
+  for i in arr
+    temp += i
+  temp
 end
 
 def max_2_sum arr
@@ -31,5 +34,12 @@ end
 # Part 3
 
 class BookInStock
-# YOUR CODE HERE
+  def initialize(name="Thanh")
+    @name = name
+    print "Hello"
+  end
+
+  def say_hi
+    puts "Hi"
+  end
 end
